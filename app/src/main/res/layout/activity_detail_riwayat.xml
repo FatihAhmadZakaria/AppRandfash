@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDetailRiwayat"
+    android:padding="25dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:text="Detail Riwayat"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgStat"
+        android:layout_marginTop="13dp"
+        android:layout_width="55dp"
+        android:layout_height="20dp"
+        android:src="@drawable/sukses"
+        android:background="@drawable/bt_rounded"/>
+    <TextView
+        android:id="@+id/drInvo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INVOICE: 19278910391"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/drTgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 September 2022"
+        android:textSize="10sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Produk"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+    <ImageView
+        android:id="@+id/drImgProd"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/product_kaos"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/cv_rounded">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/abu_abu2">
+                <TextView
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Detail"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/drNamaProduk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kaos Kasual"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/drHarga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 15.000"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:id="@+id/drJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount : 2"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="12sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/drDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaos kasual dengan bahan lembut dan dijahit dengan rapi oleh Profesional"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="12sp"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/drTotalHarga"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total harga : 30.000"
+        android:textSize="14sp"
+        android:layout_gravity="end"
+        android:textColor="@color/black"/>
+</LinearLayout>

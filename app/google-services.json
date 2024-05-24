@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "586715772109",
+    "project_id": "randfash-50aa7",
+    "storage_bucket": "randfash-50aa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586715772109:android:9979440b3c2e05b4daa584",
+        "android_client_info": {
+          "package_name": "com.example.apprandfash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586715772109-989avp88o4k6tcfhctik5vi5311k8vno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apprandfash",
+            "certificate_hash": "ff0944eb5ec6eea643aaeda27c78672ba56b6a58"
+          }
+        },
+        {
+          "client_id": "586715772109-dv7mu7321rovrqv50a8riajv83db9v7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4a_vWgMyWETMtEhqfrMjxexgSwpSu_uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586715772109-dv7mu7321rovrqv50a8riajv83db9v7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

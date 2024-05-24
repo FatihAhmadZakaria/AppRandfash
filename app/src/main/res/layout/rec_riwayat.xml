@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardRiwayat"
+    android:backgroundTint="@color/abu_abu2"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="16dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp">
+        <ImageView
+            android:id="@+id/stat"
+            android:layout_width="42dp"
+            android:layout_height="15dp"
+            android:src="@drawable/sukses"/>
+        <TextView
+            android:id="@+id/invoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INVOICE: 19278910391"
+            android:layout_below="@+id/stat"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Bayar: Rp 39.000"
+            android:layout_below="@id/invoice"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/tgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 January 2022"
+            android:textSize="10sp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
